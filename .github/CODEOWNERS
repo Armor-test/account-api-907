@@ -1,0 +1,33 @@
+# CODEOWNERS file for account-api-907
+# Global owners - will be requested for all PRs
+* @Armor-test/dept-security @Armor-test/squad-payments @Armor-test/squad-research
+
+# Directory ownership
+/extensions/ @Armor-test/dept-security @Armor-test/dept-api
+/deploy/ @Armor-test/squad-frontend @Armor-test/dept-test
+/views/ @Armor-test/team-reporting @Armor-test/team-core @Armor-test/dept-security
+/web/ @Armor-test/unit-governance @Armor-test/team-security @Armor-test/team-logging
+/services/ @Armor-test/squad-product @Armor-test/dept-test
+/dist/ @Armor-test/unit-test @Armor-test/squad-ml @Armor-test/dept-release
+/components/ @Armor-test/squad-database @Armor-test/dept-reliability
+/controllers/ @Armor-test/team-core @Armor-test/squad-search @Armor-test/grp-storage
+/pages/ @Armor-test/dept-billing @Armor-test/squad-research
+/build/ @Armor-test/squad-reporting @Armor-test/squad-product @Armor-test/team-notifications
+
+# File type ownership
+*.go @Armor-test/unit-devops @Armor-test/squad-frontend @Armor-test/dept-reliability
+*.proto @Armor-test/team-frontend @Armor-test/dept-security @Armor-test/dept-logging
+*.php @Armor-test/squad-research @Armor-test/grp-api
+*.css @Armor-test/squad-cache @Armor-test/team-notifications @Armor-test/unit-cloud
+*.yaml @Armor-test/dept-ui @Armor-test/dept-reporting @Armor-test/squad-ux
+*.toml @Armor-test/dept-security @Armor-test/team-research @Armor-test/team-core
+*.sql @Armor-test/unit-test @Armor-test/unit-cloud
+*.cpp @Armor-test/dept-notifications @Armor-test/unit-governance
+*.json @Armor-test/squad-ux @Armor-test/dept-reporting @Armor-test/squad-tooling
+*.kt @Armor-test/team-governance @Armor-test/unit-design @Armor-test/dept-data
+*.graphql @Armor-test/squad-apps @Armor-test/unit-governance @Armor-test/dept-ui
+
+# Security and special files
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
+Dockerfile @Armor-test/devops @Armor-test/infra
